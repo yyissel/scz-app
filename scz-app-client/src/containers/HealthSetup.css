@@ -1,0 +1,18 @@
+label {
+    color: black;
+}
+.HealthSetup{
+    position: fixed;
+    display: block;
+    height: 100%; 
+    width: 100%;
+    
+    background: linear-gradient(180deg, #F7F8FC 70%, #15DB95 100%);
+}
+.HealthSetup form{
+    margin: 0px auto 0px;
+    max-width: 320px;
+}
+.HealthSetup .button:hover{
+    background: #15DB95;
+}

@@ -1,0 +1,156 @@
+*,
+*:before,
+*:after {
+  box-sizing: border-box;
+}
+
+/* main grid */
+.Home {  
+    display: grid;
+
+    grid-template-rows: 12;
+    grid-template-columns: repeat(12, 1fr);
+    grid-gap: .5vh;
+
+    width: 100%;
+}
+
+.Home .lander {
+    grid-row: 1;
+    grid-column-start: 1;
+    grid-column-end: 13;
+
+    height: auto;
+    left: 0px;
+    
+    background: linear-gradient(to bottom right, #0D19A3 30%,#15DB95 100%);
+}
+
+.Home .lander h1{
+    grid-column: 1;
+    padding: 0vh 0vh 2vh;
+    color:#ffffff;
+}
+
+
+.Home .lander p{
+    grid-column: 1;
+
+    padding: 0vw 0vw 7vh;
+    font-size: 3.1em;
+    color: #ffffff;
+}
+
+.Home .lander .gradient{
+    padding: 2vw 5vw 7vw;
+
+    background: linear-gradient(to bottom right,rgba(25, 13, 163, 0.7) 30%,rgba(21, 219, 149, 0.2)  100%);
+}
+.Home .lander .fitbit-image{
+    background: #06C59C;
+    background-image: url("../../images/fitbit.png");
+    background-size:  auto 100%;
+    background-repeat: no-repeat;
+    background-position: top right;
+}
+
+/*flexbox for features*/
+.Home .feature{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+
+    grid-row: 2;
+    grid-column-start: 1;
+    grid-column-end: 13;
+
+    width: 100%;
+    height: auto;
+    padding: 5vh 0vh 0vh;
+  
+    justify-content: space-around;
+   
+}
+.Home .feature img{
+    display: block;
+
+    width: 12.5em;
+    height: 12.5em;
+    margin-left: auto;
+    margin-right: auto;
+
+    align-self: center;
+   
+}
+.Home .feature h2 {
+    margin-left: auto;
+    margin-right: auto;
+    
+    text-align: center;
+    
+    color: #000000;
+}
+/* flexbox for item */
+.Home .feature .item{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+
+    height:auto; 
+    max-width: 30em;
+    padding: 5vh 5vh 5vh;
+    margin: 0vh 1.2vh 0vh;
+    background: linear-gradient(180deg, #FFFFFF 29.17%, #15DB95 100%);
+    border-radius: 50px;
+}
+
+/*flexbox for projects*/
+.Home .project{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+
+    grid-row: 3;
+    grid-column-start: 1;
+    grid-column-end: 13;
+
+    width: 100%;
+    height: auto;
+    padding: 5vh 0vh 0vh;
+
+    justify-content: space-around;
+}
+
+.Home .project img{
+    margin-left: auto;
+    margin-right: auto;
+    width: 12.5em;
+    height: 12.5em;
+    margin-bottom: 2vh;
+}
+.Home .project h2 {
+    margin-right: auto;
+
+    color: #000000;
+
+}
+.Home .project p{
+    /* font-size:3vh; */
+    text-align: left;
+    color: #000000;
+
+}
+/* flexbox for sample */
+.Home .project .sample{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    
+    height:auto; 
+    max-width: 40em;
+    padding: 5vh 5vh 5vh;
+    
+    
+    background: linear-gradient(180deg, #FFFFFF 29.17%, #15DB95 100%);
+    border-radius: 50px;
+}

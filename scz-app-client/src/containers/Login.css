@@ -1,0 +1,23 @@
+@media all and (min-width: 480px) {
+  .Login {
+    padding: 200px 0;
+    position: fixed;
+    display: block;
+    height: 100%; 
+    width: 100%;
+
+    background: linear-gradient(180deg, #F7F8FC 70%, #15DB95 100%);
+  }
+
+  .Login form {
+    margin: 0px auto 0px;
+    max-width: 320px;
+    
+  }
+  .FormLabel {
+    color: #030A56;
+  }
+  .Login .type button:hover{
+    background: #15DB95;
+  }
+}

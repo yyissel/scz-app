@@ -1,0 +1,52 @@
+/*Default header font and color*/
+h1, h2, h3, h4, h5, h6{
+    font-family: "Archivo", sans-serif;
+    font-style: normal;
+    font-weight: bold; 
+    color: #0D19A3;
+}
+.App {
+    width:100%;
+    padding: 62px 0px 0px;
+}
+/*Navigation Bar*/
+.navbar{
+    height: 62px;
+    left: 0px;
+    top: 0px;
+    background: #ffffff;
+}
+.navbar-brand {
+    width: auto;
+    height: 62px;
+}
+.navbar-header{
+    height: 62px;
+}
+.navbar-collapse{
+    top: 0px;
+    left: 0;
+    width: 100%;
+    height: inherit;
+    width: 100%;
+    background: #ffffff;
+    
+}
+.navbar-nav {
+    height: 62px;
+    display: inline-block;
+    float: none;
+    vertical-align: top;
+  }
+/*Logo sizing and positioning*/
+.navbar-brand img{
+    position: absolute;
+    width: 155px;
+    height: 47.2px;
+    left: 28px;
+    top: 0px;
+}
+
+.nav h4{
+    font-size: 14px;
+}

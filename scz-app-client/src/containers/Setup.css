@@ -1,0 +1,62 @@
+p{
+    color: black;
+}
+
+.Setup .greeting{
+    margin: 3vh 0vh 4vh;
+    background: linear-gradient(180deg, #FFCE00 60%, #FFFFFF 100%);
+    
+}
+.Setup .greeting h1{
+    padding: 2vh 20vh 2vh;
+    color:#0D19A3;
+    text-align:center;
+}
+.Setup .choose{
+    padding: 2vh 7vh 0vh;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+
+    grid-row: 3;
+    grid-column-start: 1;
+    grid-column-end: 13;
+
+    width: 100%;
+    height: auto;
+    padding: 5vh 0vh 0vh;
+
+    justify-content: space-around;
+    align-items: flex-end;
+}
+.Setup .choose .type{
+    width: 42.5em;
+    height: 1fr;
+    margin: 0vh 2vh 0vh;
+    border-radius: 50px;
+}
+.Setup .choose .type img{
+    width: 100%;
+    height: auto;
+    
+    padding: 0vh 0vh 2vh;
+    border-radius: 50px;
+}
+.Setup .choose .type button{
+
+   width: 100%;
+   margin-left: auto;
+   margin-right: auto;
+
+   font-family: 'Open Sans', sans-serif;
+   font-size: 5vh;
+   font-weight: bold;
+   
+   background: #FFCE00;
+   color: #0D19A3;
+   border: 0px;
+   border-radius: 20px;
+}
+.Setup .choose .type button:hover{
+    background: #15DB95;
+}
